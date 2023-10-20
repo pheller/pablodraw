@@ -144,6 +144,7 @@ namespace Pablo
 							defaultInfos = new DocumentInfoCollection();
 							defaultInfos.Add(new Pablo.Formats.Character.CharacterDocumentInfo());
 							defaultInfos.Add(new Pablo.Formats.Rip.RipDocumentInfo());
+							defaultInfos.Add(new Pablo.Formats.Naplps.NaplpsDocumentInfo());
 							defaultInfos.Add(new Pablo.Formats.Image.ImageDocumentInfo());
 							defaultInfos.DefaultFormat = defaultInfos[Pablo.Formats.Character.CharacterDocumentInfo.DocumentID].Formats["ansi"];
 						}
